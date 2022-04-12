@@ -11,6 +11,7 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/5177f8d642.js" crossorigin="anonymous"></script>
 
+    <script src="script.js"></script>
     <title>Effektiv</title>
 </head>
 <body>
@@ -18,7 +19,8 @@
     <div class="container">
         <div class="row">
             <div class="col-4">
-                <div id="menu-title" class="center">
+
+                <div id="menu-title" class="center" data-bs-toggle="modal" data-bs-target="#menu-model">
                     <span><i aria-hidden="true" class="fas fa-bars"></i></span>
                     <span>КАТАЛОГ</span>
                 </div>
@@ -41,21 +43,79 @@
     </div>
 </header>
 
-<div id="menu-content">
-    <div class="container">
-        <div class="row">
-            <div class="logo col-12">
-                <img src="https://effektiv.shop/wp-content/uploads/2020/10/Effektiv_Transparent_444x70.png" alt="" loading="lazy" class="center">
+<!-- Modal -->
+<div class="modal fade" id="menu-model" tabindex="-1" aria-labelledby="menu-model" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div id="menu-content">
+                <i class="fa-solid fa-xmark" data-bs-dismiss="modal"></i>
+                <div class="container">
+                    <div class="row">
+                        <div class="logo col-12">
+                            <img src="https://effektiv.shop/wp-content/uploads/2020/10/Effektiv_Transparent_444x70.png" alt="" loading="lazy" class="center">
+                        </div>
+                    </div>
+                    <div class="row row-cols-4 top-buffer-80">
+                        <div class="col">
+                            <ul class="item">
+                                <li><i aria-hidden="true" class="icon icon-02 color-2"></i></li>
+                                <li><h2 class="title">Для глажения<br> и отпаривания</h2></li>
+                                <li><div class="divider color-2"></div></li>
+                                <li>
+                                    <ul>
+                                        <li class=""><a href="/" class="elementor-item">Отпариватели</a></li>
+                                        <li class=""><a href="/" class="elementor-item">Утюги</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="item">
+                                <li><i aria-hidden="true" class="icon icon-03 color-3"></i></li>
+                                <li><h2 class="title">Для шитья<br> и вышивания</h2></li>
+                                <li><div class="divider color-3"></div></li>
+                                <li>
+                                    <ul>
+                                        <li class=""><a href="/" class="elementor-item">Вышивальные машины</a></li>
+                                        <li class=""><a href="/" class="elementor-item">Манекены для шитья</a></li>
+                                        <li class=""><a href="/" class="elementor-item">Оверлоки</a></li>
+                                        <li class=""><a href="/" class="elementor-item">Швейно – вышивальные машины</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="item">
+                                <li><i aria-hidden="true" class="icon icon-04 color-4"></i></li>
+                                <li><h2 class="title">Для уборки<br> и чистки</h2></li>
+                                <li><div class="divider color-4"></div></li>
+                                <li>
+                                    <ul>
+                                        <li class=""><a href="/" class="elementor-item">Пылесосы циклоны</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="item">
+                                <li><i aria-hidden="true" class="icon icon-05 color-5"></i></li>
+                                <li><h2 class="title">Аксессуары<br> и расходные материалы</h2></li>
+                                <li><div class="divider color-5"></div></li>
+                                <li>
+                                    <ul>
+                                        <li class=""><a href="/" class="elementor-item">Аксессуары для шитья и вышивания</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row row-cols-4 top-buffer-80">
-            <div class="col">Column</div>
-            <div class="col">Column</div>
-            <div class="col">Column</div>
-            <div class="col">Column</div>
         </div>
     </div>
 </div>
+<!-- Modal. -->
+
 
 <!-- Optional JavaScript; choose one of the two! -->
 <!-- Option 1: Bootstrap Bundle with Popper -->

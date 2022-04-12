@@ -36,3 +36,86 @@ header .nav {}
 #menu-content .container {
     padding: 40px 0;
 }
+
+@font-face {
+    font-family: 'newicons';
+    src: url('font/newicons.eot?12122132');
+    src: url('font/newicons.eot?12122132#iefix') format('embedded-opentype'),
+    url('font/newicons.woff2?12122132') format('woff2'),
+    url('font/newicons.woff?12122132') format('woff'),
+    url('font/newicons.ttf?12122132') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "newicons";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+
+    text-align: center;
+    /* opacity: .8; */
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+
+
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+#menu-content {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+#menu-content .icon-02:before { content: '\e800'; } /* 'î €' */
+#menu-content .icon-05:before { content: '\e801'; } /* 'î ' */
+#menu-content .icon-04:before { content: '\e802'; } /* 'î ‚' */
+#menu-content .icon-03:before { content: '\e803'; } /* 'î ƒ' */
+#menu-content .icon-filter:before { content: '\f0b0'; } /* 'ï‚°' */
+
+#menu-content .icon { font-size: 98px; }
+#menu-content .divider { border-bottom: 1px solid; width: 50%; margin: 0 auto;}
+#menu-content .color-2 { color: #d00c4a; }
+#menu-content .color-3 { color: #C5E128; }
+#menu-content .color-4 { color: #AF90D8; }
+#menu-content .color-5 { color: #94786E; }
+#menu-content .col { text-align: center; }
+#menu-content h2 { font-size: 14px; font-weight: 700; }
+#menu-content ul { list-style-type: none; padding: 0;}
+#menu-content a { color: #398ffc; font-size: 14px; }
+#menu-content a:hover { color: #3b3d42; }
+#menu-content ul.item > li { margin-bottom: 30px; }
+#menu-content ul.item > li:first-child { margin-bottom: 10px; }
+#menu-content ul.item ul li { margin-bottom: 20px; }
+#menu-content .fa-xmark {
+    position: absolute;
+    right: 0px;
+    padding: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
