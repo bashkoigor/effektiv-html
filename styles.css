@@ -1,0 +1,38 @@
+body {font-family: "Montserrat"}
+body a {text-decoration: none;}
+body header {color: #9D9FA0;}
+.logo img {
+    width: 220px;
+}
+header {
+    background: #1E252B;
+    padding: 40px 0;
+}
+header .nav li a {
+    color: #9D9FA0;
+    padding: 13px 20px;
+    font-size: 17px;
+    font-weight: 400;
+}
+header .nav li a:hover {
+    border-bottom: 3px solid #CC1F4A;
+}
+header .nav {}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.top-buffer-20 { margin-top:20px; }
+.top-buffer-80 { margin-top:80px; }
+#menu-title:hover {
+    color: white;
+    cursor: pointer;
+}
+#menu-content {
+    background: #F5F5F5;
+}
+#menu-content .container {
+    padding: 40px 0;
+}
