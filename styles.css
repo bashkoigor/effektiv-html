@@ -83,7 +83,7 @@ h3.product-title { margin-top: 40px; }
 .product-page .benefits h2 { text-align: center; }
 
 .product-page .container-fluid { padding-left: 0; padding-right: 0; }
-.product-page .banner { position: relative; background: gray; }
+.product-page .banner { position: relative; }
 .product-page .banner .video-block {
     width: 100%;
     height: 800px;
@@ -91,6 +91,7 @@ h3.product-title { margin-top: 40px; }
     position: relative;
     display: flex;
     align-items: center;
+    background: gray;
 }
 .product-page .banner .video-block video {
     right: 0;
@@ -100,6 +101,34 @@ h3.product-title { margin-top: 40px; }
     position: absolute;
 }
 .product-page .banner .content-block img { display: block; margin: 0 auto; width: 100%; }
+.product-page .detail { background: #F5F5F5; text-align: center; padding-top: 80px; }
+.product-page .detail img { display: block; margin: 0 auto; width: 100%; }
+.product-page .detail p { font-size: 14px; }
+.product-page .detail .left a#btn1 { left: 42%; bottom: 71%; }
+.product-page .detail .left a#btn2 { left: 70%; bottom: 75%; }
+.product-page .detail .left a#btn3 { left: 10%; bottom: 36%; }
+.product-page .detail .left a#btn4 { left: 44%; bottom: 31%; }
+.product-page .detail .left a#btn5 { left: 66%; bottom: 46%; }
+.product-page .detail .left a#btn6 { left: 80%; bottom: 38%; }
+.product-page .detail .right a#btn7 { left: 61%; bottom: 68%; }
+.product-page .detail .right a#btn8 { left: 29%; bottom: 57%; }
+.product-page .detail .right a#btn9 { left: 41%; bottom: 45%; }
+.product-page .detail .right a#btn10 { left: 37%; bottom: 36%; }
+.product-page .detail .right a#btn11 { left: 14%; bottom: 34%; }
+.product-page .detail .right a#btn12 { left: 22%; bottom: 38%; }
+.product-page .detail .right a#btn13 { left: 30%; bottom: 38%; }
+.product-page .detail .left, .right { position: relative; }
+.product-page .detail .left a, .right a {
+    background-color: #CD1F48;
+    color: #FFFFFF;
+    font-size: 10px;
+    display:block;
+    height: 18px;
+    width: 18px;
+    padding: 2px;
+    border-radius: 50%;
+    position: relative;
+}
 .product-page .banner .content-block {
     z-index: 1;
     position: relative;
