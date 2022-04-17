@@ -18,6 +18,7 @@ h3.product-title { margin-top: 40px; }
 .product-page .property ul { list-style-type: none; padding: 0; margin: 0;}
 .product-page .property ul li { padding: 10px 10px 0 10px; font-size: 13px; }
 .product-page .property img { width: 10%; margin-right: 10px; }
+.product-page .details { padding-top: 30px; }
 .product-page .details .view a, .video a {
     font-size: 75px;
     text-align: center;
@@ -154,6 +155,48 @@ h3.product-title { margin-top: 40px; }
     border-radius: 4px;
 }
 
+.product-page .gallery #gallery-carousel {
+    color: #170724;
+    --carousel-button-bg: #fff;
+    --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%),
+    0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    --carousel-button-svg-width: 20px;
+    --carousel-button-svg-height: 20px;
+    --carousel-button-svg-stroke-width: 2.5;
+}
+.product-page .gallery #gallery-carousel img { width: 100%; }
+.product-page .gallery #gallery-carousel .carousel__slide { width: 35%; padding: 10px; }
+.product-page .gallery { background: white; text-align: center; padding-top: 42px; }
+
+
+#product-carousel {
+    margin: 0 60px 50px;
+    --carousel-button-color: #170724;
+    --carousel-button-bg: #fff;
+    --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%),
+    0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    --carousel-button-svg-width: 20px;
+    --carousel-button-svg-height: 20px;
+    --carousel-button-svg-stroke-width: 2.5;
+}
+.product-page .product #product-carousel img { width: 100%; }
+.product-page .product #product-carousel .carousel__slide { width: 100%; padding: 0; }
+.product-page .product #product-carousel .carousel__button.is-prev { left: -1.5rem; }
+.product-page .product #product-carousel .carousel__button.is-next { right: -1.5rem; }
+.product-page .product #product-thumb-carousel .carousel__slide {
+    opacity: 0.5;
+    padding: 0;
+    margin: 0.25rem;
+    width: 30%;
+}
+.product-page .product #product-thumb-carousel .carousel__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.product-page .product #product-thumb-carousel .carousel__slide.is-nav-selected { opacity: 1; }
+
 .logo img {
     width: 220px;
 }
@@ -179,7 +222,6 @@ header .nav {}
 }
 .top-buffer-20 { margin-top:20px; }
 .top-buffer-80 { margin-top:80px; }
-.product-page .main-image { margin: 80px 0px; }
 .product-page .price { font-size: 25px; font-weight: bold; }
 #menu-title:hover {
     color: white;
