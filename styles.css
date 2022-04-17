@@ -102,9 +102,20 @@ h3.product-title { margin-top: 40px; }
     position: absolute;
 }
 .product-page .banner .content-block img { display: block; margin: 0 auto; width: 100%; }
+
+.product-page .in-color { background: white; text-align: center; padding: 80px 0; }
 .product-page .detail, .benefits { background: #F5F5F5; text-align: center; padding: 80px 0; }
+.product-page .detail p, .benefits p, .in-color p { font-size: 14px; }
+.product-page .benefits img { width: 90%; }
+.product-page .benefits ul { list-style-type: none; padding: 0; }
+.product-page .benefits ul li { margin-bottom: 30px; }
+.product-page .benefits ul.left li p { text-align: right; font-weight: bold; }
+.product-page .benefits ul.right li p { text-align: left; font-weight: bold; }
+.product-page .benefits ul li svg { width: 60px; display: block; }
+.product-page .benefits ul.left li svg { margin: 0 0 30px auto; }
+.product-page .benefits ul.right li svg { margin: auto 0 30px 0; }
+
 .product-page .detail img { display: block; margin: 0 auto; width: 100%; }
-.product-page .detail p, .benefits p { font-size: 14px; }
 .product-page .detail .left a#btn1 { left: 42%; bottom: 88%; }
 .product-page .detail .left a#btn2 { left: 69%; bottom: 86%; }
 .product-page .detail .left a#btn3 { left: 12%; bottom: 35%; }
@@ -155,7 +166,7 @@ h3.product-title { margin-top: 40px; }
     border-radius: 4px;
 }
 .product-page .product .gallery { margin-top: 40px; }
-.product-page > .carousel #gallery-carousel {
+.product-page > .carousel #gallery-carousel, .in-color #in-color-carousel {
     color: #170724;
     --carousel-button-bg: #fff;
     --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%),
@@ -164,8 +175,8 @@ h3.product-title { margin-top: 40px; }
     --carousel-button-svg-height: 20px;
     --carousel-button-svg-stroke-width: 2.5;
 }
-.product-page > .carousel #gallery-carousel img { width: 100%; }
-.product-page > .carousel #gallery-carousel .carousel__slide { width: 35%; padding: 10px; }
+.product-page > .carousel #gallery-carousel img, .in-color #in-color-carousel img { width: 100%; }
+.product-page > .carousel #gallery-carousel .carousel__slide, .in-color #in-color-carousel .carousel__slide { width: 35%; padding: 10px; }
 .product-page > .carousel { background: white; text-align: center; padding: 80px 0; }
 
 #product-carousel {
