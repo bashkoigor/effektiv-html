@@ -66,22 +66,22 @@ h3.product-title { margin-top: 40px; }
 }
 .product-page .nav-tabs { border: none; }
 .product-page .info-tab {
-    margin: 50px 0;
+    margin-top: 50px;
     background: #F5F5F5;
     padding: 30px;
 }
-.product-page .benefits {
+.product-page .benefit {
     background: #F5F5F5;
     background-image: -webkit-linear-gradient(top, #ffffff, #F5F5F5);
     background-image: -moz-linear-gradient(top, #ffffff, #F5F5F5);
     background-image: -ms-linear-gradient(top, #ffffff, #F5F5F5);
     background-image: -o-linear-gradient(top, #ffffff, #F5F5F5);
     background-image: linear-gradient(to bottom, #ffffff, #F5F5F5);
-    padding-bottom: 40px;
+    padding: 80px 0;
 }
 
-.product-page .benefits img { width: 300px; height: 232px; display: block; margin: 0 auto; }
-.product-page .benefits h2 { text-align: center; }
+.product-page .benefit img { width: 300px; height: 232px; display: block; margin: 0 auto; }
+.product-page .benefit h2 { text-align: center; }
 
 .product-page .container-fluid { padding-left: 0; padding-right: 0; }
 .product-page .banner { position: relative; }
@@ -102,22 +102,22 @@ h3.product-title { margin-top: 40px; }
     position: absolute;
 }
 .product-page .banner .content-block img { display: block; margin: 0 auto; width: 100%; }
-.product-page .detail { background: #F5F5F5; text-align: center; padding-top: 80px; }
+.product-page .detail, .benefits { background: #F5F5F5; text-align: center; padding: 80px 0; }
 .product-page .detail img { display: block; margin: 0 auto; width: 100%; }
-.product-page .detail p { font-size: 14px; }
-.product-page .detail .left a#btn1 { left: 42%; bottom: 71%; }
-.product-page .detail .left a#btn2 { left: 70%; bottom: 75%; }
-.product-page .detail .left a#btn3 { left: 10%; bottom: 36%; }
-.product-page .detail .left a#btn4 { left: 44%; bottom: 31%; }
-.product-page .detail .left a#btn5 { left: 66%; bottom: 46%; }
-.product-page .detail .left a#btn6 { left: 80%; bottom: 38%; }
-.product-page .detail .right a#btn7 { left: 61%; bottom: 68%; }
-.product-page .detail .right a#btn8 { left: 29%; bottom: 57%; }
-.product-page .detail .right a#btn9 { left: 41%; bottom: 45%; }
-.product-page .detail .right a#btn10 { left: 37%; bottom: 36%; }
-.product-page .detail .right a#btn11 { left: 14%; bottom: 34%; }
-.product-page .detail .right a#btn12 { left: 22%; bottom: 38%; }
-.product-page .detail .right a#btn13 { left: 30%; bottom: 38%; }
+.product-page .detail p, .benefits p { font-size: 14px; }
+.product-page .detail .left a#btn1 { left: 42%; bottom: 88%; }
+.product-page .detail .left a#btn2 { left: 69%; bottom: 86%; }
+.product-page .detail .left a#btn3 { left: 12%; bottom: 35%; }
+.product-page .detail .left a#btn4 { left: 44%; bottom: 26%; }
+.product-page .detail .left a#btn5 { left: 66%; bottom: 37%; }
+.product-page .detail .left a#btn6 { left: 80%; bottom: 20%; }
+.product-page .detail .right a#btn7 { left: 60%; bottom: 86%; }
+.product-page .detail .right a#btn8 { left: 31%; bottom: 66%; }
+.product-page .detail .right a#btn9 { left: 42%; bottom: 46%; }
+.product-page .detail .right a#btn10 { left: 37%; bottom: 28%; }
+.product-page .detail .right a#btn11 { left: 16%; bottom: 26%; }
+.product-page .detail .right a#btn12 { left: 22%; bottom: 26%; }
+.product-page .detail .right a#btn13 { left: 30%; bottom: 18%; }
 .product-page .detail .left, .right { position: relative; }
 .product-page .detail .left a, .right a {
     background-color: #CD1F48;
@@ -128,7 +128,7 @@ h3.product-title { margin-top: 40px; }
     width: 18px;
     padding: 2px;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
 }
 .product-page .banner .content-block {
     z-index: 1;
@@ -154,8 +154,8 @@ h3.product-title { margin-top: 40px; }
     padding: 10px 20px;
     border-radius: 4px;
 }
-
-.product-page .gallery #gallery-carousel {
+.product-page .product .gallery { margin-top: 40px; }
+.product-page > .carousel #gallery-carousel {
     color: #170724;
     --carousel-button-bg: #fff;
     --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%),
@@ -164,13 +164,12 @@ h3.product-title { margin-top: 40px; }
     --carousel-button-svg-height: 20px;
     --carousel-button-svg-stroke-width: 2.5;
 }
-.product-page .gallery #gallery-carousel img { width: 100%; }
-.product-page .gallery #gallery-carousel .carousel__slide { width: 35%; padding: 10px; }
-.product-page .gallery { background: white; text-align: center; padding-top: 42px; }
-
+.product-page > .carousel #gallery-carousel img { width: 100%; }
+.product-page > .carousel #gallery-carousel .carousel__slide { width: 35%; padding: 10px; }
+.product-page > .carousel { background: white; text-align: center; padding: 80px 0; }
 
 #product-carousel {
-    margin: 0 60px 50px;
+    margin: 0 60px 100px;
     --carousel-button-color: #170724;
     --carousel-button-bg: #fff;
     --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%),
