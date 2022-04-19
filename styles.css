@@ -134,6 +134,12 @@ h3.product-title { margin-top: 40px; }
 .product-page .in-color #in-color-carousel p { margin-top: 20px; text-transform: uppercase; font-size: 14px; }
 
 .product-page .property-table .head { text-align: center; }
+.product-page .catalog-block .head { text-align: center; }
+.product-page .catalog-block { padding-top: 80px; }
+.product-page .catalog-block h3 { font-size: 26px; text-align: center; }
+.product-page .catalog-block .item img { width: 100%; }
+.product-page .catalog-block .item h2 { font-size: 20px; margin: 40px 0; }
+.product-page .catalog-block .item .order-btn { margin: 40px 0; }
 
 .vertical-center { display: flex; align-items: center; height: 100%; }
 .background-grey { background: #F5F5F5; }
