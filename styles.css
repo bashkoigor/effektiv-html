@@ -133,6 +133,8 @@ h3.product-title { margin-top: 40px; }
 .product-page .in-color { background: white; text-align: center; padding: 80px 0; }
 .product-page .in-color #in-color-carousel p { margin-top: 20px; text-transform: uppercase; font-size: 14px; }
 
+.product-page .property-table .head { text-align: center; }
+
 .vertical-center { display: flex; align-items: center; height: 100%; }
 .background-grey { background: #F5F5F5; }
 .background-green { background: #B9DB01; }
@@ -285,14 +287,12 @@ header .nav {}
     color: white;
     cursor: pointer;
 }
-
 .modal-content { background: #F5F5F5; }
 #menu-content { background: #F5F5F5; }
 
 #menu-content .container {
     padding: 40px 0;
 }
-
 @font-face {
     font-family: 'newicons';
     src: url('font/newicons.eot?12122132');
@@ -303,43 +303,21 @@ header .nav {}
     font-weight: normal;
     font-style: normal;
 }
-
-
 [class^="icon-"]:before, [class*=" icon-"]:before {
     font-family: "newicons";
     font-style: normal;
     font-weight: normal;
     speak: never;
-
     display: inline-block;
     text-decoration: inherit;
     width: 1em;
-
     text-align: center;
-    /* opacity: .8; */
-
-    /* For safety - reset parent styles, that can break glyph codes*/
     font-variant: normal;
     text-transform: none;
-
-    /* fix buttons height, for twitter bootstrap */
     line-height: 1em;
-
-    /* Animation center compensation - margins should be symmetric */
-    /* remove if not needed */
-
-
-    /* you can be more comfortable with increased icons size */
-    /* font-size: 120%; */
-
-    /* Font smoothing. That was taken from TWBS */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
-    /* Uncomment for 3D effect */
-    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
-
 #menu-content .icon-02:before { content: '\e800'; } /* 'î €' */
 #menu-content .icon-05:before { content: '\e801'; } /* 'î ' */
 #menu-content .icon-04:before { content: '\e802'; } /* 'î ‚' */
