@@ -16,32 +16,38 @@
     <title>Effektiv</title>
 </head>
 <body>
-<header>
+<header class="sticky-top">
     <div class="container">
         <div class="row">
             <div class="col-xl-4">
-
                 <div id="menu-title" class="center" data-bs-toggle="modal" data-bs-target="#menu-model">
-                    <div><i aria-hidden="true" class="fas fa-bars"></i> КАТАЛОГ</div>
+                    <div>
+                        <i aria-hidden="true" class="fas fa-bars"></i>
+                        <span class="d-none d-sm-inline-block">КАТАЛОГ</span>
+                    </div>
                 </div>
             </div>
             <div class="logo col-xl-4">
-                <img src="https://effektiv.shop/wp-content/uploads/2020/10/Effektiv_TransparentB_444x75.png" alt="" loading="lazy" class="center">
+                <img src="https://effektiv.shop/wp-content/uploads/2020/10/Effektiv_TransparentB_444x75.png" alt="" class="center">
             </div>
             <div class="col-xl-4"></div>
         </div>
-        <div class="row justify-content-center top-buffer-20">
-            <div class="col-xl-6">
+    </div>
+</header>
+<section class="menu">
+    <div class="container">
+        <div class="row" id="hide">
+            <div class="col-xl-12">
                 <ul class="nav nav-pills justify-content-center">
                     <li><a href="https://effektiv.shop/about/">О Нас</a></li>
                     <li><a href="https://effektiv.shop/nashe-kachestvo/">Наше качество</a></li>
-                    <li><a href="https://effektiv.shop/podderzhka/" class="elementor-item">Поддержка</a></li>
-                    <li><a href="https://effektiv.shop/kontakty/" class="elementor-item">Контакты</a></li>
+                    <li><a href="https://effektiv.shop/podderzhka/">Поддержка</a></li>
+                    <li><a href="https://effektiv.shop/kontakty/">Контакты</a></li>
                 </ul>
             </div>
         </div>
     </div>
-</header>
+</section>
 <!-- Product -->
 <div class="product-page">
     <!-- Gallery + details-->
@@ -57,7 +63,7 @@
         <h3 class="product-title">Оверлок EFFEKTIV Triumphator 1700Х Жёлтый</h3>
         <div class="row">
             <!-- Product gallery-->
-            <div class="col-xl-8">
+            <div class="col-lg-8">
                 <div class="gallery">
                     <div id="product-carousel" class="carousel">
                         <div class="carousel__slide" data-src="https://effektiv.shop/wp-content/uploads/2020/07/Triumphator-1700X-Yellow-galery-2.jpg" data-fancybox="product-gallery">
@@ -96,10 +102,10 @@
                 </div>
             </div>
             <!-- Product details-->
-            <div class="col-xl-4">
+            <div class="col-lg-4">
                 <div class="details">
                     <div class="row">
-                        <div class="col-xl-12">
+                        <div class="col-lg-12">
                             <div class="price mb-4">₽22,490</div>
                             <div class="order-btn mb-4">
                                 <button type="button" class="btn btn-quick-order">Быстрый заказ</button>
@@ -156,16 +162,16 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xl-6">
+                        <div class="col-6">
                             <div class="view">
-                                <a class="elementor-icon" href="#">
+                                <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.8 80.07"><g><g><path d="M52.05,13.93c6.73,0,11.35,3.8,11.35,9.35A6.6,6.6,0,0,1,58.63,30a7.61,7.61,0,0,1,6,7.85c0,6.48-5.21,11.06-12.67,11.06-7.74,0-12.61-4.58-12.61-11.89v-.49h6.67c0,4.19,2.1,6.53,5.8,6.53,3.41,0,5.65-2.09,5.65-5.16,0-3.8-2.92-5.07-6.19-5.07-.73,0-1,0-1.7.05V28c.53,0,.73,0,1.17,0,4,0,5.94-1.41,5.94-4.28,0-2.58-1.9-4.29-4.73-4.29-3.21,0-5.06,2.05-5.16,5.85H40.26C40.51,18.31,44.84,13.93,52.05,13.93Z" style="fill:#5e5e5e"></path><path d="M84.74,23c-.63-2.54-2.14-3.85-4.58-3.85-3.8,0-5.94,3.26-6.48,10.13a9,9,0,0,1,7.6-3.85C87.52,25.47,92,30.15,92,36.73c0,7.06-5.07,12.13-12.13,12.13C71.73,48.86,67,42.57,67,32c0-11.2,5-18,13.3-18,6.14,0,10.23,3.31,11.06,9.11ZM74.32,37c0,3.7,2.24,6.28,5.4,6.28s5.51-2.67,5.51-6.33-2.34-6.28-5.56-6.28S74.32,33.32,74.32,37Z" style="fill:#5e5e5e"></path><path d="M118.94,31.47c0,10.81-4.68,17.39-12.42,17.39-7.9,0-12.62-6.48-12.62-17.39,0-8,2.87-17.49,12.57-17.49S118.94,23.43,118.94,31.47Zm-18.22.34c0,7.74,1.85,11.44,5.75,11.44s5.65-3.84,5.65-11.78c0-8.14-1.76-11.79-5.7-11.79C100.72,19.68,100.72,27.76,100.72,31.81Z" style="fill:#5e5e5e"></path><path d="M122.71,13.86a6.93,6.93,0,1,1,6.93-6.93A6.94,6.94,0,0,1,122.71,13.86Zm0-10a3,3,0,1,0,3,3A3,3,0,0,0,122.71,3.9Z" style="fill:#5e5e5e"></path><path d="M87,52.13,90.16,62l3.19-9.82h3.18l-4.66,14H88.4l-4.58-14Z" style="fill:#5e5e5e"></path><path d="M100.79,66.12H97.71v-14h3.08Z" style="fill:#5e5e5e"></path><path d="M114,54.64h-7.45v3h6.84v2.42h-6.84v3.44h7.59v2.57H103.51v-14H114Z" style="fill:#5e5e5e"></path><path d="M118,52.13l2.24,9.51,2.45-9.51h2.89L128,61.76l2.32-9.63h3l-3.77,14h-3.06l-2.4-9.55-2.36,9.55h-3.12l-3.72-14Z" style="fill:#5e5e5e"></path><path d="M69,58.65l-8.83-5.21-1.49-.87v7.11c-28.53-4.23-48.36-13.56-48.36-24.4C10.28,28.48,18.1,19.81,31,14A99.17,99.17,0,0,1,46,22.7l.55-.8a102,102,0,0,0-14.41-8.42,70.35,70.35,0,0,1,11-3.66c-4.16,1-8.09,2.1-11.76,3.31-.86-.39-1.71-.77-2.55-1.12-5.66-2.34-10.72-3.56-15-3.63C9.3,8.31,5.79,9.53,3.39,12S-.14,18,0,22.55A35.38,35.38,0,0,0,2,32.05,14.52,14.52,0,0,0,0,39.15C0,53.79,24.28,66.31,58.64,71.42V76.9L60.13,76,69,70.82l10.32-6.08ZM2.62,31A32.75,32.75,0,0,1,1,22.51c-.18-4.25.85-7.56,3.06-9.83s5.47-3.41,9.76-3.33a41.19,41.19,0,0,1,14.67,3.56c.52.21,1,.45,1.56.68C16.75,18.16,7,24.17,2.62,31Z" style="fill:#5e5e5e"></path><path d="M162.68,44.34c-3.18-3-7.71-5.69-13.45-8a96.52,96.52,0,0,0-19.1-5.2l2.44,2.44a91.6,91.6,0,0,1,15.94,4.57c5.51,2.21,9.83,4.76,12.83,7.59s4.51,5.81,4.51,8.84-1.52,6-4.51,8.83A40.69,40.69,0,0,1,148.51,71a95.14,95.14,0,0,1-19.3,5.2,142.55,142.55,0,0,1-23.7,1.91,143.06,143.06,0,0,1-22.87-1.78l2.3,2.3a147.4,147.4,0,0,0,20.57,1.43,144.46,144.46,0,0,0,24-1.94,97,97,0,0,0,19.69-5.31c5.74-2.3,10.27-5,13.45-8,3.4-3.21,5.12-6.66,5.12-10.24S166.08,47.55,162.68,44.34Z" style="fill:#5e5e5e"></path></g></g></svg>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-6">
+                        <div class="col-6">
                             <div class="video">
-                                <a class="elementor-icon" href="#">
+                                <a data-fancybox="video" href="https://www.youtube.com/watch?v=3Q1rRdnkVVA&amp;ab_channel=EffektivRUS">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.69 50.27"><g><g><path d="M17.81,36.83a1.08,1.08,0,0,1-.55-.15,1.13,1.13,0,0,1-.58-1V14.58a1.13,1.13,0,0,1,1.72-1L35.81,24.17a1.12,1.12,0,0,1,.54,1,1.14,1.14,0,0,1-.54,1L18.4,36.66A1.12,1.12,0,0,1,17.81,36.83ZM19,16.59V33.68L33,25.14Z" style="fill:#1d252c"></path><path d="M67.51,48.17a4.09,4.09,0,0,1-2.66-1L48.41,33.4a1.12,1.12,0,0,1-.41-.87V17.73a1.15,1.15,0,0,1,.41-.87L64.85,3.08a4.17,4.17,0,0,1,6.84,3.19V44a4.2,4.2,0,0,1-4.18,4.18ZM50.27,32l16,13.46A1.9,1.9,0,0,0,69.42,44V6.27A1.9,1.9,0,0,0,66.3,4.82l-16,13.44Z" style="fill:#1d252c"></path><path d="M43.84,50.27H6.42A6.43,6.43,0,0,1,0,43.84V6.43A6.44,6.44,0,0,1,6.42,0H43.84a6.44,6.44,0,0,1,6.43,6.43V43.84A6.43,6.43,0,0,1,43.84,50.27ZM6.42,2.27A4.16,4.16,0,0,0,2.27,6.43V43.84A4.15,4.15,0,0,0,6.42,48H43.84A4.16,4.16,0,0,0,48,43.84V6.43a4.16,4.16,0,0,0-4.16-4.16Z" style="fill:#1d252c"></path></g></g></svg>
                                 </a>
                             </div>
@@ -174,7 +180,7 @@
                 </div>
             </div>
             <!-- Product info-->
-            <div class="col-xl-12">
+            <div class="col-lg-12">
                 <div class="info-tab">
                     <nav class="mb-4">
                         <div class="nav nav-tabs flex-column flex-lg-row" id="nav-tab" role="tablist">
@@ -284,7 +290,7 @@
             <div class="container-fluid content-block">
                 <div class="row">
                     <div class="col-sm-6">
-                        <img src="https://effektiv.shop/wp-content/uploads/2021/01/MG_9778.png" alt="" loading="lazy">
+                        <img src="https://effektiv.shop/wp-content/uploads/2021/01/MG_9778.png" alt="">
                     </div>
                     <div class="col-sm-6 info mt-5">
                         <div>
@@ -320,7 +326,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-6 left">
-                    <img src="https://effektiv.shop/wp-content/uploads/2020/07/Triumphator-1800X-Violet-Main.png" alt="" loading="lazy">
+                    <img src="https://effektiv.shop/wp-content/uploads/2020/07/Triumphator-1800X-Violet-Main.png" alt="">
                     <a href="javascript:void(0);" id="btn1" data-bs-toggle="tooltip" data-bs-placement="top" title="Регулировка прижима лапки">
                         <i aria-hidden="true" class="fas fa-plus"></i>
                     </a>
@@ -341,7 +347,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6 right">
-                    <img src="https://effektiv.shop/wp-content/uploads/2021/01/MG_9790.png" alt="" loading="lazy">
+                    <img src="https://effektiv.shop/wp-content/uploads/2021/01/MG_9790.png" alt="">
                     <a href="javascript:void(0);" id="btn7" data-bs-toggle="tooltip" data-bs-placement="top" title="Натяжители нитей">
                         <i aria-hidden="true" class="fas fa-plus"></i>
                     </a>
@@ -479,7 +485,7 @@
                     </ul>
                 </div>
                 <div class="col-6 d-none d-sm-block">
-                    <img src="https://effektiv.shop/wp-content/uploads//2020/12/Triumphator.svg" class="" alt="" loading="lazy">
+                    <img src="https://effektiv.shop/wp-content/uploads//2020/12/Triumphator.svg" class="" alt="">
                 </div>
                 <div class="col-6 col-sm-3">
                     <ul class="right">
@@ -540,13 +546,13 @@
                 </div>
             </div>
         </div>
-        <div class="row row-cols-sm-2">
-            <div class="col-sm">
+        <div class="row row-cols-lg-2">
+            <div class="col-lg">
                 <div class="border-green">
                     <img src="https://effektiv.shop/wp-content/uploads/2021/01/DC-Motor_1.svg">
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-lg">
                 <div class="vertical-center background-grey">
                     <div class="description">
                         <h2 class="background-green">КАРКАСНЫЙ ОСТОВ</h2>
@@ -555,7 +561,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-lg">
                 <div class="vertical-center background-grey">
                     <div class="description">
                         <h2 class="background-purple">МОЩНЫЙ ЯПОНСКИЙ ДВИГАТЕЛЬ</h2>
@@ -564,17 +570,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-lg">
                 <div class="border-purple">
                     <img src="https://effektiv.shop/wp-content/uploads//2021/01/DC-Motor.svg">
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-lg">
                 <div class="border-orange">
                     <img src="https://effektiv.shop/wp-content/uploads//2021/01/StitchTrajectory.svg">
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-lg">
                 <div class="vertical-center background-grey">
                     <div class="description">
                         <h2 class="background-orange">ИДЕАЛЬНАЯ ТРАЕКТОРИЯ ШВА</h2>
@@ -582,7 +588,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-lg">
                 <div class="vertical-center background-grey">
                     <div class="description">
                         <h2 class="background-blue">СКОРОСТЬ ДО 1350 СТ/МИН</h2>
@@ -591,17 +597,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-lg">
                 <div class="border-blue">
                     <img src="https://effektiv.shop/wp-content/uploads//2021/02/Tri2.svg">
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-lg">
                 <div class="border-brown">
                     <img src="https://effektiv.shop/wp-content/uploads//2021/02/Tri5.svg">
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-lg">
                 <div class="vertical-center background-grey">
                     <div class="description">
                         <h2 class="background-brown">ДИФФЕРЕНЦИАЛЬНАЯ ПОДАЧА МАТЕРИАЛА</h2>
@@ -610,7 +616,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-lg">
                 <div class="vertical-center background-grey">
                     <div class="description">
                         <h2 class="background-black">АВТОМАТИЧЕСКАЯ ЗАПРАВКА НИЖНЕГО ПЕТЛИТЕЛЯ</h2>
@@ -619,17 +625,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-lg">
                 <div class="border-black">
                     <img src="https://effektiv.shop/wp-content/uploads//2021/02/Tri1.svg">
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-lg">
                 <div class="border-red">
                     <img src="https://effektiv.shop/wp-content/uploads//2021/02/Tri3.svg">
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-lg">
                 <div class="vertical-center background-grey">
                     <div class="description">
                         <h2 class="background-red">СВЕРХЪЯРКАЯ ПОДСВЕТКА QUATRO LED</h2>
@@ -854,6 +860,47 @@
             </div>
         </div>
     </div>
+
+    <div id="to-top">
+        <i class="fas fa-arrow-circle-up"></i>
+    </div>
+</div>
+<!-- Mobile menu  d-block d-sm-none -->
+<div class="container-fluid fixed-bottom d-block d-sm-none" id="mobile-menu">
+    <ul class="nav nav-pills justify-content-center">
+        <li>
+            <a href="https://effektiv.shop/about/">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39.96 39.33"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Ресурс 6</title><g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1"><path class="cls-1" d="M20,7.32a3.66,3.66,0,1,1,3.66-3.66A3.66,3.66,0,0,1,20,7.32Zm0-6a2.37,2.37,0,1,0,2.37,2.37A2.37,2.37,0,0,0,20,1.29Z"></path><path class="cls-1" d="M10.14,39.33a2.72,2.72,0,0,1-2.07-.95,2.72,2.72,0,0,1-4.78-1.76V25.49a2.28,2.28,0,0,1-.78.23A2.3,2.3,0,0,1,0,23.44V14.77a3.93,3.93,0,0,1,3.93-3.93h8.2a.64.64,0,0,1,.61.86,2.78,2.78,0,0,0-.18,1V22.1a1.09,1.09,0,0,0,.19.61.79.79,0,0,1,.1.34V36.62A2.71,2.71,0,0,1,10.14,39.33ZM8.71,36.62a1.43,1.43,0,1,0,2.85,0V23.22a2.34,2.34,0,0,1-.29-1.12V12.68a5.27,5.27,0,0,1,0-.56H3.93a2.65,2.65,0,0,0-2.64,2.65v8.67a1,1,0,0,0,.33.74,1,1,0,0,0,.77.26,1.06,1.06,0,0,0,.9-1.07v-6a.65.65,0,0,1,1.29,0V36.62a1.42,1.42,0,1,0,2.84,0v-10a.65.65,0,0,1,1.29,0Z"></path><path class="cls-1" d="M8.07,9.88a3.42,3.42,0,1,1,3.42-3.42A3.42,3.42,0,0,1,8.07,9.88Zm0-5.55A2.14,2.14,0,1,0,10.2,6.46,2.14,2.14,0,0,0,8.07,4.33Z"></path><path class="cls-1" d="M34,39.33a2.72,2.72,0,0,1-2.07-.95,2.71,2.71,0,0,1-4.77-1.76V23.37a1.23,1.23,0,0,1,0-.19,6,6,0,0,0,.26-1.08V12.68a3,3,0,0,0-.17-1,.65.65,0,0,1,.08-.59.63.63,0,0,1,.52-.27H36A3.93,3.93,0,0,1,40,14.77v8.67a2.27,2.27,0,0,1-3.29,2V36.62A2.71,2.71,0,0,1,34,39.33Zm-1.42-2.71a1.43,1.43,0,1,0,2.85,0V23.42s0,0,0-.05v-6a.65.65,0,0,1,1.29,0v6a1,1,0,0,0,1.68.81,1,1,0,0,0,.32-.74V14.77A2.65,2.65,0,0,0,36,12.12H28.65a3.52,3.52,0,0,1,0,.56V22.1a6,6,0,0,1-.29,1.37V36.62a1.43,1.43,0,1,0,2.85,0v-10a.65.65,0,0,1,1.29,0Z"></path><path class="cls-1" d="M22.23,39.31A2.9,2.9,0,0,1,20,38.24a2.89,2.89,0,0,1-5.13-1.82V24.24a2.36,2.36,0,0,1-.91.28,2.47,2.47,0,0,1-2.67-2.42V12.68a4.33,4.33,0,0,1,.25-1.42,4.24,4.24,0,0,1,4-2.8h9a4.23,4.23,0,0,1,4,2.8,4.33,4.33,0,0,1,.25,1.42V22.1a2.44,2.44,0,0,1-.39,1.3A2.41,2.41,0,0,1,26,24.52a2.31,2.31,0,0,1-.9-.28V36.42A2.9,2.9,0,0,1,22.23,39.31ZM20,35.77a.65.65,0,0,1,.65.65,1.6,1.6,0,1,0,3.2,0V22a.65.65,0,0,1,1.29,0,1.2,1.2,0,0,0,1,1.21,1.17,1.17,0,0,0,1.08-.53,1.14,1.14,0,0,0,.18-.61V12.68a3,3,0,0,0-.17-1h0a2.94,2.94,0,0,0-2.76-1.95h-9a2.92,2.92,0,0,0-2.75,1.95,2.78,2.78,0,0,0-.18,1V22.1a1.09,1.09,0,0,0,.19.61,1.15,1.15,0,0,0,1.07.53,1.21,1.21,0,0,0,1-1.22.64.64,0,1,1,1.28,0v14.4a1.61,1.61,0,0,0,3.21,0A.65.65,0,0,1,20,35.77Z"></path><path class="cls-1" d="M31.89,9.88a3.42,3.42,0,1,1,3.43-3.42A3.42,3.42,0,0,1,31.89,9.88Zm0-5.55A2.14,2.14,0,1,0,34,6.46,2.14,2.14,0,0,0,31.89,4.33Z"></path><path class="cls-1" d="M20,37.06a.64.64,0,0,1-.64-.64V25.62a.65.65,0,1,1,1.29,0v10.8A.65.65,0,0,1,20,37.06Z"></path><path class="cls-1" d="M15.49,22.67a.64.64,0,0,1-.64-.65V14.68a.64.64,0,1,1,1.28,0V22A.64.64,0,0,1,15.49,22.67Z"></path><path class="cls-1" d="M24.47,22.67a.64.64,0,0,1-.64-.64V14.68a.65.65,0,1,1,1.29,0V22A.64.64,0,0,1,24.47,22.67Z"></path></g></g></svg>
+                </p>
+                <span>О Нас</span>
+            </a>
+        </li>
+        <li>
+            <a href="https://effektiv.shop/nashe-kachestvo/">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41.44 41.32"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Ресурс 1</title><g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1"><path class="cls-1" d="M35,29.78a.65.65,0,0,1-.65-.64V14.89a13.6,13.6,0,0,0-27.2,0V29.14a.65.65,0,0,1-1.29,0V14.89a14.89,14.89,0,0,1,29.78,0V29.14A.64.64,0,0,1,35,29.78Z"></path><path class="cls-1" d="M6.47,29.78H3.11A3.11,3.11,0,0,1,0,26.67V20.6a3.12,3.12,0,0,1,3.11-3.11H6.47a.65.65,0,0,1,.65.65v11A.65.65,0,0,1,6.47,29.78Zm-3.36-11A1.83,1.83,0,0,0,1.29,20.6v6.07a1.83,1.83,0,0,0,1.82,1.82H5.83V18.78Z"></path><path class="cls-1" d="M38.33,29.78H35a.65.65,0,0,1-.65-.64v-11a.65.65,0,0,1,.65-.65h3.36a3.11,3.11,0,0,1,3.11,3.11v6.07A3.11,3.11,0,0,1,38.33,29.78Zm-2.72-1.29h2.72a1.83,1.83,0,0,0,1.82-1.82V20.6a1.83,1.83,0,0,0-1.82-1.82H35.61Z"></path><path class="cls-1" d="M18.62,41.32a2.79,2.79,0,1,1,2.79-2.79A2.79,2.79,0,0,1,18.62,41.32Zm0-4.29a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,18.62,37Z"></path><path class="cls-1" d="M16.47,39.17h-.61a10,10,0,0,1-10-10,.65.65,0,1,1,1.29,0,8.75,8.75,0,0,0,8.74,8.74h.61a.65.65,0,1,1,0,1.29Z"></path></g></g></svg>
+                </p>
+                <span>Наше качество</span>
+            </a>
+        </li>
+        <li>
+            <a href="https://effektiv.shop/podderzhka/">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41.76 25.93"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Ресурс 4</title><g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1"><path class="cls-1" d="M37.67,25.66H.64A.65.65,0,0,1,0,25V.64A.64.64,0,0,1,.64,0h37a.65.65,0,0,1,.65.64V25A.65.65,0,0,1,37.67,25.66ZM1.29,24.37H37V1.29H1.29Z"></path><path class="cls-1" d="M19.16,18.16a.63.63,0,0,1-.43-.17L.21,1.12A.65.65,0,0,1,0,.41.65.65,0,0,1,.64,0h37a.63.63,0,0,1,.6.41.65.65,0,0,1-.16.71L19.59,18A.65.65,0,0,1,19.16,18.16ZM2.31,1.29,19.16,16.64,36,1.29Z"></path><path class="cls-1" d="M41.06,25.93H.7A.7.7,0,0,1,0,25.56.47.47,0,0,1,.28,25l16-9.23a.86.86,0,0,1,1,.1.47.47,0,0,1-.14.76L2.81,24.85H39L24.83,16.69a.45.45,0,0,1-.14-.75.84.84,0,0,1,1-.11L41.48,25a.47.47,0,0,1,.24.6A.7.7,0,0,1,41.06,25.93Z"></path></g></g></svg>
+                </p>
+                <span>Поддержка</span>
+            </a>
+        </li>
+        <li>
+            <a href="https://effektiv.shop/kontakty/">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.9 38.83"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Ресурс 3</title><g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1"><path class="cls-1" d="M26.76,38.83H2.15A2.15,2.15,0,0,1,0,36.6L1,10A2.14,2.14,0,0,1,3.15,7.89H25.76A2.15,2.15,0,0,1,27.91,10l1,26.64a2.08,2.08,0,0,1-.6,1.57A2.11,2.11,0,0,1,26.76,38.83ZM3.15,9.18a.85.85,0,0,0-.86.83l-1,26.64a.87.87,0,0,0,.24.63.84.84,0,0,0,.62.26H26.76a.87.87,0,0,0,.62-.26.92.92,0,0,0,.24-.63L26.62,10a.86.86,0,0,0-.86-.83Z"></path><path class="cls-1" d="M8,15.8a2.53,2.53,0,1,1,2.53-2.52A2.52,2.52,0,0,1,8,15.8ZM8,12a1.24,1.24,0,1,0,1.24,1.24A1.24,1.24,0,0,0,8,12Z"></path><path class="cls-1" d="M20.92,15.8a2.53,2.53,0,1,1,2.53-2.52A2.52,2.52,0,0,1,20.92,15.8Zm0-3.76a1.24,1.24,0,1,0,1.24,1.24A1.24,1.24,0,0,0,20.92,12Z"></path><path class="cls-1" d="M20.92,11.7a.64.64,0,0,1-.64-.64V7.12a5.83,5.83,0,1,0-11.65,0v3.94a.65.65,0,0,1-1.29,0V7.12a7.12,7.12,0,1,1,14.23,0v3.94A.65.65,0,0,1,20.92,11.7Z"></path><path class="cls-1" d="M28.2,35.68H.7a.65.65,0,0,1,0-1.29H28.2a.65.65,0,0,1,0,1.29Z"></path></g></g></svg>
+                </p>
+                <span>Контакты</span>
+            </a>
+        </li>
+    </ul>
 </div>
 <!-- Footer -->
 <footer class="background-black pt-5">
@@ -910,22 +957,22 @@
             <div class="col-md-2">
                 <ul class="list-inline">
                     <li class="list-inline-item">
-                        <a class="elementor-icon" href="http://fb.me/EffektivApp" target="_blank">
+                        <a href="http://fb.me/EffektivApp" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 448.06 448.06"><defs><linearGradient id="b764a1e7-4f80-4e98-a995-c7dd2520e2a4" x1="65.62" y1="65.62" x2="382.44" y2="382.44" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1677f1"></stop><stop offset="0.18" stop-color="#186ee9"></stop><stop offset="0.46" stop-color="#1d56d3"></stop><stop offset="0.82" stop-color="#262fb0"></stop><stop offset="1" stop-color="#2b189c"></stop></linearGradient></defs><title>Facebook</title><g id="a76df226-125d-47a1-98e1-a2dbc719779d" data-name="Слой 2"><g id="ae78c9dc-847b-4ec4-94eb-28cd3416057d" data-name="Layer 1"><path d="M448.06,224c0-123.73-100.3-224-224-224S0,100.3,0,224c0,111.82,81.92,204.5,189,221.31V288.79H132.14V224H189V174.67c0-56.14,33.44-87.16,84.61-87.16,24.52,0,50.15,4.38,50.15,4.38V147H295.54c-27.83,0-36.5,17.27-36.5,35v42h62.13l-9.93,64.76H259V445.34C366.14,428.53,448.06,335.85,448.06,224Z" style="fill:url(#b764a1e7-4f80-4e98-a995-c7dd2520e2a4)"></path><path d="M311.24,288.79,321.17,224H259V182c0-17.72,8.67-35,36.5-35h28.25V91.89s-25.63-4.38-50.15-4.38c-51.17,0-84.61,31-84.61,87.16V224H132.14v64.76H189V445.34a226.61,226.61,0,0,0,70,0V288.79Z" style="fill:#fff"></path></g></g></svg>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="elementor-icon" href="https://www.instagram.com/effektiv_app/">
+                        <a href="https://www.instagram.com/effektiv_app/">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 448.06 448.06"><defs><linearGradient id="af8d6a9e-bef7-4ca5-9717-904685ff24da" x1="382.44" y1="65.62" x2="65.62" y2="382.44" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffe185"></stop><stop offset="0.21" stop-color="#ffbb36"></stop><stop offset="0.38" stop-color="#ff5176"></stop><stop offset="0.52" stop-color="#f63395"></stop><stop offset="0.74" stop-color="#a436d2"></stop><stop offset="1" stop-color="#5f4eed"></stop></linearGradient></defs><title>Instagram</title><g id="af88f0e6-8620-4980-a2ba-d7393aad05c2" data-name="Слой 2"><g id="a507a13c-69a2-473c-91d8-b7b21c865d1d" data-name="Layer 1"><circle cx="224.03" cy="224.03" r="224.03" style="fill:url(#af8d6a9e-bef7-4ca5-9717-904685ff24da)"></circle><path d="M293.57,139.59A15.4,15.4,0,1,0,309,155,15.41,15.41,0,0,0,293.57,139.59Z" style="fill:#fff"></path><path d="M225.11,159.34A64.69,64.69,0,1,0,289.8,224,64.76,64.76,0,0,0,225.11,159.34Zm0,106.13A41.44,41.44,0,1,1,266.54,224,41.49,41.49,0,0,1,225.11,265.47Z" style="fill:#fff"></path><path d="M276.46,355.37H171.59a79,79,0,0,1-78.9-78.9V171.59a79,79,0,0,1,78.9-78.9H276.46a79,79,0,0,1,78.91,78.9V276.47A79,79,0,0,1,276.46,355.37Zm-104.87-238a54.24,54.24,0,0,0-54.19,54.18V276.47a54.25,54.25,0,0,0,54.19,54.19H276.46a54.26,54.26,0,0,0,54.2-54.19V171.59a54.25,54.25,0,0,0-54.2-54.18Z" style="fill:#fff"></path></g></g></svg>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="elementor-icon" href="https://twitter.com/EffektivApp">
+                        <a href="https://twitter.com/EffektivApp">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 448.06 448.06"><defs><linearGradient id="f4358f6e-c41c-49ad-a84d-cec50574eb63" x1="382.44" y1="65.62" x2="65.62" y2="382.44" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0cf"></stop><stop offset="1" stop-color="#0080ff"></stop></linearGradient></defs><title>Twitter</title><g id="a0e635aa-209b-4aa4-8eb9-9cf934db92a1" data-name="Слой 2"><g id="f206517c-3b41-4a1a-895f-04875f5574e7" data-name="Layer 1"><circle cx="224.03" cy="224.03" r="224.03" style="fill:url(#f4358f6e-c41c-49ad-a84d-cec50574eb63)"></circle><path d="M347.81,147.27a100.6,100.6,0,0,1-24.71,7c4-.66,9.81-7.86,12.15-10.77a45.35,45.35,0,0,0,8.2-14.95c.22-.43.37-1-.05-1.29a1.42,1.42,0,0,0-1.31.11,126.12,126.12,0,0,1-29.3,11.21,2,2,0,0,1-2-.53,23.62,23.62,0,0,0-2.56-2.62,51.78,51.78,0,0,0-14.2-8.7,49.36,49.36,0,0,0-21.76-3.5,51.86,51.86,0,0,0-20.65,5.83,53.09,53.09,0,0,0-16.66,13.61A51.24,51.24,0,0,0,225,162.63a54.19,54.19,0,0,0-.53,21c.16,1.17.06,1.33-1,1.17-40.24-6-73.59-20.38-100.67-51.24-1.17-1.34-1.81-1.34-2.77.11-11.85,17.76-6.1,46.29,8.7,60.31,2,1.87,4,3.74,6.19,5.45-.8.16-10.65-.91-19.43-5.45-1.17-.74-1.76-.32-1.87,1a31,31,0,0,0,.32,5.77c2.27,18,14.74,34.65,31.81,41.15a30.15,30.15,0,0,0,6.46,2c-3.89.85-7.9,1.46-19.05.59-1.39-.27-1.92.43-1.39,1.76,8.38,22.85,26.48,29.65,40,33.52,1.81.32,3.63.32,5.45.74-.11.17-.22.17-.32.33-4.5,6.85-20.08,11.95-27.34,14.49a98,98,0,0,1-41.52,5.31c-2.23-.33-2.7-.3-3.31,0s-.08.91.64,1.49c2.83,1.87,5.71,3.53,8.65,5.13a137.69,137.69,0,0,0,27.75,11.1c49.88,13.77,106.06,3.65,143.52-33.56C314.71,255.61,325,215.32,325,175c0-1.58,1.87-2.45,3-3.29,7.65-5.75,13.82-12.63,19.53-20.31a6.16,6.16,0,0,0,1.29-3.89v-.21C348.81,146.62,348.8,146.82,347.81,147.27Z" style="fill:#fff"></path></g></g></svg>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="elementor-icon" href="https://www.youtube.com/channel/UCQFTSjZLy1FDPOMxfynuXQA?">
+                        <a href="https://www.youtube.com/channel/UCQFTSjZLy1FDPOMxfynuXQA?">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 448.06 448.06"><defs><linearGradient id="bec6a194-2e59-41de-8b45-422fe3d4f975" x1="382.44" y1="65.62" x2="65.62" y2="382.44" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="red"></stop><stop offset="1" stop-color="#9b0000"></stop></linearGradient></defs><title>Youtube</title><g id="b2d0a903-9cd2-4d10-9519-f29e817f355c" data-name="Слой 2"><g id="e45585e7-3d0e-4168-b6a6-330dedf4a912" data-name="Layer 1"><circle cx="224.03" cy="224.03" r="224.03" style="fill:url(#bec6a194-2e59-41de-8b45-422fe3d4f975)"></circle><path d="M344,191.45a53.79,53.79,0,0,0-53.79-53.79H152.62a53.79,53.79,0,0,0-53.8,53.79v64a53.8,53.8,0,0,0,53.8,53.8H290.18A53.8,53.8,0,0,0,344,255.47Zm-80.9,36.81-61.68,30.52c-2.42,1.31-10.64-.45-10.64-3.2V192.94c0-2.79,8.29-4.53,10.71-3.15l59,32.12C263,223.32,265.58,226.9,263.07,228.26Z" style="fill:#fff"></path></g></g></svg>
                         </a>
                     </li>
@@ -943,7 +990,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="logo col-xl-12">
-                            <img src="https://effektiv.shop/wp-content/uploads/2020/10/Effektiv_Transparent_444x70.png" alt="" loading="lazy" class="center">
+                            <img src="https://effektiv.shop/wp-content/uploads/2020/10/Effektiv_Transparent_444x70.png" alt="" class="center">
                         </div>
                     </div>
                     <div class="row top-buffer-80">
@@ -954,8 +1001,8 @@
                                 <li><div class="divider color-2"></div></li>
                                 <li>
                                     <ul>
-                                        <li class=""><a href="/" class="elementor-item">Отпариватели</a></li>
-                                        <li class=""><a href="/" class="elementor-item">Утюги</a></li>
+                                        <li class=""><a href="/">Отпариватели</a></li>
+                                        <li class=""><a href="/">Утюги</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -967,10 +1014,10 @@
                                 <li><div class="divider color-3"></div></li>
                                 <li>
                                     <ul>
-                                        <li class=""><a href="/" class="elementor-item">Вышивальные машины</a></li>
-                                        <li class=""><a href="/" class="elementor-item">Манекены для шитья</a></li>
-                                        <li class=""><a href="/" class="elementor-item">Оверлоки</a></li>
-                                        <li class=""><a href="/" class="elementor-item">Швейно – вышивальные машины</a></li>
+                                        <li class=""><a href="/">Вышивальные машины</a></li>
+                                        <li class=""><a href="/">Манекены для шитья</a></li>
+                                        <li class=""><a href="/">Оверлоки</a></li>
+                                        <li class=""><a href="/">Швейно – вышивальные машины</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -982,7 +1029,7 @@
                                 <li><div class="divider color-4"></div></li>
                                 <li>
                                     <ul>
-                                        <li class=""><a href="/" class="elementor-item">Пылесосы циклоны</a></li>
+                                        <li class=""><a href="/">Пылесосы циклоны</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -994,7 +1041,7 @@
                                 <li><div class="divider color-5"></div></li>
                                 <li>
                                     <ul>
-                                        <li class=""><a href="/" class="elementor-item">Аксессуары для шитья и вышивания</a></li>
+                                        <li class=""><a href="/">Аксессуары для шитья и вышивания</a></li>
                                     </ul>
                                 </li>
                             </ul>
