@@ -492,6 +492,16 @@ text-align: center;
     cursor: pointer;
     display: inline-block;
 }
+.page h2 { text-align: center; margin: 40px 0; }
+.page.about img { width: 20%; float: left; }
+.page.about .block p { font-style: italic; margin-top: 40px; font-size: 20px; }
+.page.about .block {
+    border: 1px solid;
+    padding: 100px;
+    background: #F5F5F5;
+    text-align: center;
+    color: #54595F;
+}
 @media (max-width: 1200px) {
 .btn-quick-order, .btn-add-cart { margin-bottom: 20px; }
 .product-page .catalog-block .item .order-btn { width: 170px; margin: 40px auto 0; }
