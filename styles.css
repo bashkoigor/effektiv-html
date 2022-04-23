@@ -518,6 +518,29 @@ text-align: center;
     text-align: center;
     color: #54595F;
 }
+.page.contacts .widget-container p { font-size: 18px; }
+.page.contacts h5 { font-weight: bold; }
+.page.contacts a { font-size: 20px; color: #CD1F4B; }
+.page.contacts a:hover { color: #e6003d; }
+.page.contacts ul { padding: 0; }
+.page.contacts ul li { display: inline; padding-right: 10px; }
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
 @media (max-width: 1200px) {
 .btn-quick-order, .btn-add-cart { margin-bottom: 20px; }
 .product-page .catalog-block .item .order-btn { width: 170px; margin: 40px auto 0; }
