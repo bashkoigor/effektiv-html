@@ -1,6 +1,11 @@
 body {font-family: "Montserrat"}
 body a {text-decoration: none;}
 body header {color: #9D9FA0;}
+.btn-primary { background: #CD1F48; border-color: #CD1F48; }
+.btn-primary:hover { background: #e6003d; border-color: #e6003d; }
+.btn-primary:focus { background: #e6003d; border-color: #e6003d; }
+.right { display: block; margin-left: auto; margin-right: 10px; }
+.w-180 { width: 180px; }
 .breadcrumb a { color: #CD1F4B; font-size: 14px; }
 .breadcrumb .active { font-size: 14px; }
 .product-page { padding: 40px 0 }
@@ -291,7 +296,7 @@ header { background: #1E252B; padding: 20px 0; }
 .product-page .price { font-size: 25px; font-weight: bold; }
 #menu-title:hover { color: white; cursor: pointer; }
 #menu-title { top: 28px;position: absolute; }
-.modal-content { background: #F5F5F5; }
+#menu-model .modal-content { background: #F5F5F5; }
 #menu-content { background: #F5F5F5; }
 #menu-content .container {padding: 40px 0; }
 @font-face {
@@ -503,7 +508,7 @@ text-align: center;
 }
 .page h2 { text-align: center; margin: 40px 0; }
 .page img { width: 1024px; }
-.page h3 { text-transform: capitalize; margin: 25px 0; }
+.page h3 { text-transform: initial; margin: 25px 0; }
 .page.about img { width: 20%; float: left; }
 .page.about .block p { font-style: italic; margin-top: 40px; font-size: 20px; }
 .page.about .block {
