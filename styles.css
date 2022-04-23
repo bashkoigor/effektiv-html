@@ -474,6 +474,10 @@ text-align: center;
     border-radius: 4px;
     display: inline-block;
 }
+.catalog-page img { width: 100% }
+.catalog-page a { color: black; }
+.catalog-page .card-title { text-align: center; }
+.catalog-page .card { box-shadow: -4px 10px 14px 0px rgb(0 0 0 / 50%); border: none; }
 @media (max-width: 1200px) {
 .btn-quick-order, .btn-add-cart { margin-bottom: 20px; }
 .product-page .catalog-block .item .order-btn { width: 170px; margin: 40px auto 0; }
