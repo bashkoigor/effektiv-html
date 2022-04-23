@@ -492,7 +492,18 @@ text-align: center;
     cursor: pointer;
     display: inline-block;
 }
+.page .widget-container {
+    margin: 0 0 30px 12px;
+    padding: 0px 0px 0px 40px;
+    border-style: solid;
+    border-width: 0px 0px 0px 8px;
+    border-color: #D70036;
+    border-radius: 0;
+    font-size: 24px;
+}
 .page h2 { text-align: center; margin: 40px 0; }
+.page img { width: 1024px; }
+.page h3 { text-transform: capitalize; margin: 25px 0; }
 .page.about img { width: 20%; float: left; }
 .page.about .block p { font-style: italic; margin-top: 40px; font-size: 20px; }
 .page.about .block {
