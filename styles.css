@@ -478,6 +478,20 @@ text-align: center;
 .catalog-page a { color: black; }
 .catalog-page .card-title { text-align: center; }
 .catalog-page .card { box-shadow: -4px 10px 14px 0px rgb(0 0 0 / 50%); border: none; }
+.cart-page table img { width: 20%; }
+.cart-page table tfoot { text-align: right; }
+.cart-page table input { width: 50%; }
+.cart-page table .cart-del { cursor: pointer; }
+.cart-page table .cart-del:hover { color: #cd1f4b; }
+.cart-page .result { width: 50%; margin: 0 auto; }
+.cart-page .order-btn { color: white; background: #CD1F4B; display: block; margin: 0 auto; }
+.cart-page .order-btn:hover { background: #e6003d; }
+#cart-sync:hover { color: #cd1f4b; }
+#cart-sync {
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
 @media (max-width: 1200px) {
 .btn-quick-order, .btn-add-cart { margin-bottom: 20px; }
 .product-page .catalog-block .item .order-btn { width: 170px; margin: 40px auto 0; }
