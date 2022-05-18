@@ -4,7 +4,7 @@ body header {color: #9D9FA0;}
 .btn-primary { background: #CD1F48; border-color: #CD1F48; }
 .btn-primary:hover { background: #e6003d; border-color: #e6003d; }
 .btn-primary:focus { background: #e6003d; border-color: #e6003d; }
-.right { display: block; margin-left: auto; margin-right: 10px; }
+/*.right { display: block; margin-left: auto; margin-right: 10px; }*/
 .w-180 { width: 180px; }
 .breadcrumb a { color: #CD1F4B; font-size: 14px; }
 .breadcrumb .active { font-size: 14px; }
